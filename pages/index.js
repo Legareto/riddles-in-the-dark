@@ -26,7 +26,9 @@ const HomePage = () => {
       <LifeIndicator />
       <h1>{currentRiddle.question}</h1>
       <input type="text" value={answer} onChange={handleAnswerChange} />
-      <button onClick={handleCheckAnswer}>Check Answer</button>
+      <button className="p-6 m-3" onClick={handleCheckAnswer}>
+        Check Answer
+      </button>
     </div>
   );
 };
