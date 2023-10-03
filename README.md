@@ -6,4 +6,4 @@ Stack : NextJS, React and Tailwind.
 
 Preview screenshot :
 
-![Alt text](screen.png)
+![Alt text](./images/screen.png)
