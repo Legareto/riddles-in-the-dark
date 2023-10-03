@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Bahiana&family=Mansalva&display=swap");
+
 html,
 body {
   height: 100%;
@@ -10,22 +12,22 @@ body {
 body {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-family: sans-serif;
+  /* justify-content: center;
+  align-items: center; */
+  font-family: "Mansalva", cursive;
   background-color: #0f1520;
   background-image: url("../images/cavern.png");
   background-size: cover;
-  color: #e2e8f0;
+  color: #ffffff;
 }
 
-.container {
+/* .container {
   max-width: 650px;
   padding: 2rem;
   background-color: #0f1520;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   border-radius: 0.5rem;
-}
+} */
 
 input[type="text"] {
   border: 1px solid #4a5568;
@@ -38,7 +40,7 @@ input[type="text"] {
 
 button {
   background-color: #1c2e66;
-  color: #e2e8f0;
+  color: #ffffff;
   border: none;
   border-radius: 0.25rem;
   padding: 0.5rem 1rem;

@@ -2,7 +2,7 @@ import { useGame } from "../contexts/GameContext";
 import riddles from "../data/riddles";
 import { useState } from "react";
 import HealthBar from "../components/HealthBar";
-import GameTitle from "../components/GameTitle";
+import GameNavbar from "../components/GameNavbar";
 
 const Game = () => {
   const { currentLevel, reduceLife, nextLevel } = useGame();
@@ -23,9 +23,9 @@ const Game = () => {
   };
 
   return (
-    <div className="">
-      <GameTitle />
-      <div className="p-3 border border-blue-950 rounded-lg">
+    <div>
+      <GameNavbar />
+      {/* <div className="p-3 border border-blue-950 rounded-lg">
         <HealthBar />
         <div className="mt-12 mb-12">
           <h3 className="p-2 text-lg">Gollum&apos;s riddle :</h3>
@@ -40,7 +40,7 @@ const Game = () => {
             ✅ Check Answer
           </button>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
